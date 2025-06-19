@@ -23,10 +23,10 @@ python3 -m venv venv
 source venv/bin/activate
 
 # 2. 패키지 설치
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 # 3. 실습 코드 실행
-python breast_cancer_diagnosis_kr.py
+python3 breast_cancer_diagnosis_kr.py
 ```
 
 <br/>

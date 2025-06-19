@@ -116,6 +116,61 @@ pip3 install -r requirements.txt
 python3 breast_cancer_diagnosis_kr.py
 ```
 
+<br/>
+
+### 8. credit_card_fraud_detection
+- **주제:** 신용카드 사기 탐지 불균형 데이터 분류 실습
+- **예제:** RandomForest, SMOTE, 신경망, KMeans, 비즈니스 AI
+- **실행법:**
+
+
+```bash
+cd credit_card_fraud_detection
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+python3 credit_card_fraud_detection_kr.py
+```
+
+<br/>
+
+### 9. sentiment_analysis
+- **주제:** 감정 분석 NLP 텍스트 분류 실습
+- **예제:** TF-IDF, NaiveBayes, SVM, 신경망, 워드클라우드
+- **실행법:**
+
+
+```bash
+cd sentiment_analysis
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+python3 sentiment_analysis_kr.py
+```
+
+### 10. stock_price_prediction
+- **주제:** 주식/지수 시계열 데이터 회귀 실습 (미국/코스피)
+- **예제:** LinearRegression, LSTM, 시계열 시각화, 예측 결과 표 출력
+- **실행법:**
+
+#### (1) 미국 주식(Yahoo Finance)
+```bash
+cd stock_price_prediction
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+python3 stock_price_prediction_kr.py
+```
+
+#### (2) 코스피 지수(네이버 금융)
+```bash
+cd stock_price_prediction
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+python3 stock_price_prediction_kr_naver.py
+```
+
 ---
 
 각 폴더의 README.md에서 더 자세한 설명과 실행법을 확인할 수 있습니다.

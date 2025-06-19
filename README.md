@@ -116,6 +116,61 @@ pip3 install -r requirements.txt
 python3 breast_cancer_diagnosis.py
 ```
 
+<br/>
+
+### 8. credit_card_fraud_detection
+- **Topic:** Credit Card Fraud Detection Imbalanced Data Classification Practice
+- **Examples:** RandomForest, SMOTE, Neural Network, KMeans, Business AI
+- **Execution:**
+
+
+```bash
+cd credit_card_fraud_detection
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+python3 credit_card_fraud_detection.py
+```
+
+<br/>
+
+### 9. sentiment_analysis
+- **Topic:** Sentiment Analysis NLP Text Classification Practice
+- **Examples:** TF-IDF, NaiveBayes, SVM, Neural Network, WordCloud
+- **Execution:**
+
+
+```bash
+cd sentiment_analysis
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+python3 sentiment_analysis.py
+```
+
+### 10. stock_price_prediction
+- **Topic:** Stock/Index Time Series Regression Practice (US/KOSPI)
+- **Examples:** LinearRegression, LSTM, Time Series Visualization, Prediction Table Output
+- **Execution:**
+
+#### (1) US Stock (Yahoo Finance)
+```bash
+cd stock_price_prediction
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+python3 stock_price_prediction.py
+```
+
+#### (2) KOSPI Index (Naver Finance)
+```bash
+cd stock_price_prediction
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+python3 stock_price_prediction_kr_naver.py
+```
+
 ---
 
 Check each folder's README.md for more detailed explanations and execution methods.

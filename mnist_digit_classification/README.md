@@ -23,10 +23,10 @@ python3 -m venv venv
 source venv/bin/activate
 
 # 2. Install packages
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 # 3. Run practice code
-python mnist_digit_classification.py
+python3 mnist_digit_classification.py
 ```
 
 <br/>
