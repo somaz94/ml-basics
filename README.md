@@ -84,6 +84,38 @@ pip3 install -r requirements.txt
 python3 boston_housing.py
 ```
 
+<br/>
+
+### 6. mnist_digit_classification
+- **Topic:** MNIST Handwritten Digit Classification/Deep Learning Practice
+- **Examples:** CNN, RandomForest, SVM, KMeans, Image Visualization
+- **Execution:**
+
+
+```bash
+cd mnist_digit_classification
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+python3 mnist_digit_classification.py
+```
+
+<br/>
+
+### 7. breast_cancer_diagnosis
+- **Topic:** Breast Cancer Diagnosis Medical Data Classification/Clustering Practice
+- **Examples:** LogisticRegression, RandomForest, Neural Network, KMeans, Medical AI
+- **Execution:**
+
+
+```bash
+cd breast_cancer_diagnosis
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+python3 breast_cancer_diagnosis.py
+```
+
 ---
 
 Check each folder's README.md for more detailed explanations and execution methods.

@@ -75,13 +75,45 @@ python3 titanic_surviva_kr_.py
 - **예제:** LinearRegression, RandomForest, KMeans, 산점도 시각화
 - **실행법:**
 
-
 ```bash
 cd boston_housing
 python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
 python3 boston_housing_kr.py
+```
+
+
+<br/>
+
+### 6. mnist_digit_classification
+- **주제:** MNIST 손글씨 숫자 분류/딥러닝 실습
+- **예제:** CNN, RandomForest, SVM, KMeans, 이미지 시각화
+- **실행법:**
+
+
+```bash
+cd mnist_digit_classification
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+python3 mnist_digit_classification_kr.py
+```
+
+<br/>
+
+### 7. breast_cancer_diagnosis
+- **주제:** 유방암 진단 의료 데이터 분류/군집화 실습
+- **예제:** LogisticRegression, RandomForest, 신경망, KMeans, 의료 AI
+- **실행법:**
+
+
+```bash
+cd breast_cancer_diagnosis
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+python3 breast_cancer_diagnosis_kr.py
 ```
 
 ---

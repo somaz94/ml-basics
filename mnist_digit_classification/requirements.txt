@@ -1,0 +1,8 @@
+scikit-learn
+numpy
+matplotlib
+pandas
+seaborn
+# TensorFlow 대신 PyTorch 사용 (Apple Silicon Mac 호환)
+torch
+torchvision 
