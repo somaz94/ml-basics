@@ -5,7 +5,7 @@
 <br/>
 
 ## 예제 파일
-- `titanic_survival.py`: DecisionTree, RandomForest, LogisticRegression으로 생존 예측, KMeans로 승객 군집화, 산점도 시각화
+- `titanic_survival_kr.py`: DecisionTree, RandomForest, LogisticRegression으로 생존 예측, KMeans로 승객 군집화, 산점도 시각화
 
 <br/>
 
@@ -24,7 +24,7 @@ pip3 install -r requirements.txt
 
 3. 예제 실행
 ```bash
-python3 titanic_survival.py
+python3 titanic_survival_kr.py
 ```
 
 <br/>

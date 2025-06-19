@@ -24,7 +24,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # 3. 실습 코드 실행
-python boston_housing.py
+python boston_housing_kr.py
 ```
 
 <br/>

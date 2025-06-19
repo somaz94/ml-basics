@@ -5,7 +5,7 @@
 <br/>
 
 ## 예제 파일
-- `iris_classification.py`: SVM, KNN, LogisticRegression으로 품종 분류, KMeans로 군집화 및 실제 품종과 비교, 2D/3D 시각화
+- `iris_classification_kr.py`: SVM, KNN, LogisticRegression으로 품종 분류, KMeans로 군집화 및 실제 품종과 비교, 2D/3D 시각화
 
 <br/>
 
@@ -24,7 +24,7 @@ pip3 install -r requirements.txt
 
 3. 예제 실행
 ```bash
-python3 iris_classification.py
+python3 iris_classification_kr.py
 ```
 
 <br/>

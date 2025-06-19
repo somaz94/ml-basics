@@ -5,7 +5,7 @@
 <br/>
 
 ## 예제 파일
-- `fruit_ml_examples.py`: DecisionTree, KMeans, Cosine Similarity를 활용한 과일 데이터 분류/군집/유사도 실습
+- `fruit_ml_examples_kr.py`: DecisionTree, KMeans, Cosine Similarity를 활용한 과일 데이터 분류/군집/유사도 실습
 
 <br/>
 
@@ -24,7 +24,7 @@ pip3 install -r requirements.txt
 
 3. 예제 실행
 ```bash
-python3 fruit_ml_examples.py
+python3 fruit_ml_examples_kr.py
 ```
 
 <br/>

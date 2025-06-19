@@ -3,7 +3,7 @@
 이 디렉토리는 와인 품질 데이터셋을 활용한 지도학습(분류/회귀), 비지도학습(군집화), 시각화 실습 예제를 제공합니다.
 
 ## 예제 파일
-- `wine_quality.py`: RandomForest로 품질 등급 분류, LinearRegression으로 품질 점수 예측, KMeans로 군집화, 산점도 시각화
+- `wine_quality_kr.py`: RandomForest로 품질 등급 분류, LinearRegression으로 품질 점수 예측, KMeans로 군집화, 산점도 시각화
 
 <br/>
 
@@ -22,7 +22,7 @@ pip3 install -r requirements.txt
 
 3. 예제 실행
 ```bash
-python3 wine_quality.py
+python3 wine_quality_kr.py
 ```
 
 <br/>

@@ -4,41 +4,47 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 import matplotlib.pyplot as plt
 
-# -----------------------
-# Supervised Learning: Fruit Classifier
-# -----------------------
-print("📘 Supervised Learning - Fruit Prediction with Decision Tree")
+# --------------------------------
+# 한글 폰트 설정
+# --------------------------------
+plt.rcParams['font.family'] = 'AppleGothic'  # macOS 한글 폰트
+plt.rcParams['axes.unicode_minus'] = False
 
-# Fruit features [color, size, sweetness]
+# -----------------------
+# 지도학습: 과일 분류기
+# -----------------------
+print("📘 지도학습 - Decision Tree로 과일 예측")
+
+# 과일의 [색, 크기, 당도]
 X = [[1, 1, 9], [1, 2, 10], [3, 4, 3], [2, 4, 4], [4, 1, 8]]
-y = [0, 0, 1, 1, 2]  # 0:apple, 1:banana, 2:grape
+y = [0, 0, 1, 1, 2]  # 0:사과, 1:바나나, 2:포도
 
 clf = DecisionTreeClassifier()
 clf.fit(X, y)
 
 pred = clf.predict([[1, 1, 10]])
-print("Prediction result (label):", pred)
+print("예측 결과 (라벨):", pred)
 
 # -----------------------
-# Unsupervised Learning: Fruit Clustering
+# 비지도학습: 과일 군집화
 # -----------------------
-print("\n📘 Unsupervised Learning - Clustering with KMeans")
+print("\n📘 비지도학습 - KMeans로 군집화")
 
 kmeans = KMeans(n_clusters=3, random_state=42)
 clusters = kmeans.fit_predict(X)
-print("Clustering result:", clusters)
+print("군집 결과:", clusters)
 
-# Visualization
+# 시각화
 plt.scatter([x[0] for x in X], [x[2] for x in X], c=clusters)
-plt.xlabel("Color")
-plt.ylabel("Sweetness")
-plt.title("KMeans Fruit Clustering")
+plt.xlabel("색상")
+plt.ylabel("당도")
+plt.title("KMeans 과일 군집화")
 plt.show()
 
 # -----------------------
-# Similarity Comparison (Cosine)
+# 유사도 비교 (Cosine)
 # -----------------------
-print("\n📘 Similarity - Cosine Similarity")
+print("\n📘 유사도 - Cosine Similarity")
 
 apple = np.array([[1, 1, 9]])
 pear = np.array([[2, 1, 9]])
@@ -47,5 +53,5 @@ banana = np.array([[3, 4, 3]])
 sim_apple_pear = cosine_similarity(apple, pear)
 sim_apple_banana = cosine_similarity(apple, banana)
 
-print("Apple-Pear similarity:", sim_apple_pear)
-print("Apple-Banana similarity:", sim_apple_banana)
+print("사과-배 유사도:", sim_apple_pear)
+print("사과-바나나 유사도:", sim_apple_banana)
