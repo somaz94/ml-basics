@@ -1,40 +1,40 @@
-# 실습2: 붓꽃(Iris) 데이터 분류/군집화 실습
+# Practice 2: Iris Dataset Classification/Clustering Practice
 
-이 디렉토리는 Iris(붓꽃) 데이터셋을 활용한 지도학습(분류), 비지도학습(군집화), 2D/3D 시각화 실습 예제를 제공합니다.
-
-<br/>
-
-## 예제 파일
-- `iris_classification.py`: SVM, KNN, LogisticRegression으로 품종 분류, KMeans로 군집화 및 실제 품종과 비교, 2D/3D 시각화
+This directory provides practice examples for supervised learning (classification), unsupervised learning (clustering), and 2D/3D visualization using the Iris dataset.
 
 <br/>
 
-## 실행 방법
+## Example Files
+- `iris_classification.py`: Species classification using SVM, KNN, LogisticRegression, clustering with KMeans and comparison with actual species, 2D/3D visualization
 
-1. 가상환경 생성 및 활성화 (권장)
+<br/>
+
+## Execution Method
+
+1. Create and activate virtual environment (recommended)
 ```bash
 python3 -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 ```
 
-2. 의존성 설치
+2. Install dependencies
 ```bash
 pip3 install -r requirements.txt
 ```
 
-3. 예제 실행
+3. Run examples
 ```bash
 python3 iris_classification.py
 ```
 
 <br/>
 
-## 주요 내용
-- **지도학습**: SVM, KNN, LogisticRegression으로 붓꽃 품종 분류 및 정확도 비교
-- **비지도학습**: KMeans로 군집화, 실제 품종과 군집 결과 비교(혼동 행렬)
-- **시각화**: 2D/3D scatter plot으로 실제 품종/군집 결과 시각화
+## Main Contents
+- **Supervised Learning**: Iris species classification using SVM, KNN, LogisticRegression and accuracy comparison
+- **Unsupervised Learning**: Clustering with KMeans, comparison between actual species and clustering results (confusion matrix)
+- **Visualization**: 2D/3D scatter plot visualization of actual species/clustering results
 
 <br/>
 
-## 참고
-- 다양한 분류/군집 알고리즘, 시각화 방법으로 확장해볼 수 있습니다. 
+## Notes
+- You can extend with various classification/clustering algorithms and visualization methods. 

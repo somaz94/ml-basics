@@ -1,15 +1,15 @@
 # ml-basics
 
-머신러닝 입문자를 위한 대표 실습 예제 모음입니다. 각 폴더별로 다양한 데이터와 알고리즘을 활용한 실습 코드를 제공합니다.
+A collection of representative practice examples for machine learning beginners. Each folder provides practice code using various data and algorithms.
 
 <br/>
 
-## 폴더별 실습 주제
+## Practice Topics by Folder
 
 ### 1. intro
-- **주제:** 과일 데이터로 배우는 지도학습, 비지도학습, 유사도 비교
-- **예제:** DecisionTree, KMeans, Cosine Similarity
-- **실행법:**
+- **Topic:** Learning Supervised Learning, Unsupervised Learning, and Similarity Comparison with Fruit Data
+- **Examples:** DecisionTree, KMeans, Cosine Similarity
+- **Execution:**
   ```bash
   cd intro
   python3 -m venv venv
@@ -21,9 +21,9 @@
 <br/>
 
 ### 2. iris_classification
-- **주제:** 붓꽃(Iris) 데이터셋 분류/군집화 실습
-- **예제:** SVM, KNN, LogisticRegression, KMeans, 2D/3D 시각화
-- **실행법:**
+- **Topic:** Iris Dataset Classification/Clustering Practice
+- **Examples:** SVM, KNN, LogisticRegression, KMeans, 2D/3D Visualization
+- **Execution:**
   ```bash
   cd iris_classification
   python3 -m venv venv
@@ -35,9 +35,9 @@
 <br/>
 
 ### 3. wine_quality
-- **주제:** 와인 품질 데이터 분류/회귀/군집화 실습
-- **예제:** RandomForest, LinearRegression, KMeans, 산점도 시각화
-- **실행법:**
+- **Topic:** Wine Quality Data Classification/Regression/Clustering Practice
+- **Examples:** RandomForest, LinearRegression, KMeans, Scatter Plot Visualization
+- **Execution:**
   ```bash
   cd wine_quality
   python3 -m venv venv
@@ -49,9 +49,9 @@
 <br/>
 
 ### 4. titanic_survival
-- **주제:** 타이타닉 생존자 예측 분류 실습
-- **예제:** RandomForest, LogisticRegression, 데이터 전처리, 혼동행렬
-- **실행법:**
+- **Topic:** Titanic Survivor Prediction Classification Practice
+- **Examples:** RandomForest, LogisticRegression, Data Preprocessing, Confusion Matrix
+- **Execution:**
   ```bash
   cd titanic_survival
   python3 -m venv venv
@@ -63,9 +63,9 @@
 <br/>
 
 ### 5. boston_housing
-- **주제:** 보스턴 집값 예측 회귀/군집화 실습
-- **예제:** LinearRegression, RandomForest, KMeans, 산점도 시각화
-- **실행법:**
+- **Topic:** Boston Housing Price Prediction Regression/Clustering Practice
+- **Examples:** LinearRegression, RandomForest, KMeans, Scatter Plot Visualization
+- **Execution:**
   ```bash
   cd boston_housing
   python3 -m venv venv
@@ -76,4 +76,4 @@
 
 ---
 
-각 폴더의 README.md에서 더 자세한 설명과 실행법을 확인할 수 있습니다.
+Check each folder's README.md for more detailed explanations and execution methods.
