@@ -187,6 +187,22 @@ pip3 install -r requirements.txt
 python3 customer_churn_prediction.py
 ```
 
+<br/>
+
+### 12. image_classification_cifar10
+- **Topic:** CIFAR-10 Dataset Image Classification Practice
+- **Examples:** CNN, Data Augmentation, PyTorch
+- **Execution:**
+
+
+```bash
+cd image_classification_cifar10
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+python3 image_classification_cifar10.py
+```
+
 ---
 
 Check each folder's README.md for more detailed explanations and execution methods.

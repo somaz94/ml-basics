@@ -187,6 +187,22 @@ pip3 install -r requirements.txt
 python3 customer_churn_prediction_kr.py
 ```
 
+<br/>
+
+### 12. image_classification_cifar10
+- **주제:** CIFAR-10 데이터셋 이미지 분류 실습
+- **예제:** CNN, 데이터 증강, PyTorch
+- **실행법:**
+
+
+```bash
+cd image_classification_cifar10
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+python3 image_classification_cifar10_kr.py
+```
+
 ---
 
 각 폴더의 README.md에서 더 자세한 설명과 실행법을 확인할 수 있습니다.
