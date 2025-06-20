@@ -148,6 +148,8 @@ pip3 install -r requirements.txt
 python3 sentiment_analysis_kr.py
 ```
 
+<br/>
+
 ### 10. stock_price_prediction
 - **주제:** 주식/지수 시계열 데이터 회귀 실습 (미국/코스피)
 - **예제:** LinearRegression, LSTM, 시계열 시각화, 예측 결과 표 출력
@@ -169,6 +171,20 @@ python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
 python3 stock_price_prediction_kr_naver.py
+```
+
+### 11. customer_churn_prediction
+- **주제:** 고객 이탈 예측 (고객 생애가치 분석 실습)
+- **예제:** RandomForest, LogisticRegression, 특성 중요도
+- **실행법:**
+
+
+```bash
+cd customer_churn_prediction
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+python3 customer_churn_prediction_kr.py
 ```
 
 ---

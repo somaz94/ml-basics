@@ -148,6 +148,8 @@ pip3 install -r requirements.txt
 python3 sentiment_analysis.py
 ```
 
+<br/>
+
 ### 10. stock_price_prediction
 - **Topic:** Stock/Index Time Series Regression Practice (US/KOSPI)
 - **Examples:** LinearRegression, LSTM, Time Series Visualization, Prediction Table Output
@@ -169,6 +171,20 @@ python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
 python3 stock_price_prediction_kr_naver.py
+```
+
+### 11. customer_churn_prediction
+- **Topic:** Customer Churn Prediction (Customer Lifetime Value Analysis Practice)
+- **Examples:** RandomForest, LogisticRegression, Feature Importance
+- **Execution:**
+
+
+```bash
+cd customer_churn_prediction
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+python3 customer_churn_prediction.py
 ```
 
 ---
